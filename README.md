@@ -1,1 +1,1 @@
-# Orm //object relational mapping
+# Orm (object relational mapping)
