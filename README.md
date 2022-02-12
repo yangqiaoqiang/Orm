@@ -14,3 +14,10 @@
 
 添加了表create,drop,table exists的基本操作
 
+## 3.记录新增和查询
+
+Clause层实现将结构体构造成完整sql语句//generator构造独立语句，clause调用generator和拼接
+
+insert代码将对象平铺后插入
+
+find代码将平铺的字段构造成对象
