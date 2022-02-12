@@ -21,3 +21,9 @@ Clause层实现将结构体构造成完整sql语句//generator构造独立语句
 insert代码将对象平铺后插入
 
 find代码将平铺的字段构造成对象
+
+## 4.链式操作和更新删除
+
+添加update、delete、count功能
+
+添加链式调用
