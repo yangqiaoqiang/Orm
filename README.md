@@ -44,3 +44,16 @@ database/sql自带数据库的事务操作、Begin()开始、Commit()或Rollback
 
 仅支持字段增加和删除
 
+## 结构
+
+geeorm -> dialect -> Schema -> Session -> Clause
+
+geeorm:数据库交互前准备，交互后收尾
+
+dialect:抽象出不同数据库的差异
+
+Schema:对象和表的转化
+
+Session:与数据库表交互、执行sql语句，操作数据库表，实现crud代码
+
+Clause:独立子语句的构建和合并成完整sql语句
